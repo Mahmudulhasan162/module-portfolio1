@@ -5,7 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: none;
+    margin: 0 200px;
 }
 .nav_title{
     color: #181818;
@@ -23,6 +23,7 @@ nav >ul,li{
     text-decoration: none;
     list-style: none;
     margin-right: 50px;
+    justify-content: space-between;
 }
 nav a{
     text-decoration: none;
@@ -38,4 +39,17 @@ nav a{
     font-weight: 700;
     color: white;
 
+}
+.header{
+    background-color: #FFF8F3;
+    
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .propic{
+    width: 500px;
 }

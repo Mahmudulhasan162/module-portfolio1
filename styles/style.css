@@ -42,14 +42,84 @@ nav a{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .banner .propic{
     width: 500px;
+}
+.banner_greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.banner_name{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.banner p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* color: #75757575; */
+    color: var(--dark-03, #757575);
+    display: flex;
+    width: 585px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 20px;
+    }
+.about h3{
+        text-align: center;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        color: var(--dark-01, #181818);
+    }
+ .about p{
+        display: flex;
+        /* width: 827px; */
+        flex-direction: column;
+        flex-shrink: 0;
+        color: var(--dark-03, #757575);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        padding: 20px;
+    }
+.about{
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+    padding: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: var(--white-color, #FFF);
+}
+.about_info_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_info{
+    text-align: center;
 }

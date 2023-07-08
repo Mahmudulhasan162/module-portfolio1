@@ -230,3 +230,29 @@ line-height: 28px;
 .download-btn{
     text-align: center;
 }
+footer{
+    background: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 130px;
+    margin-top: 100px;
+}
+.foot-des{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    width: 562px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.social-links a{
+    padding: 10px;
+    margin: 10px;
+}
